@@ -1,0 +1,35 @@
+/* font */
+.font{
+    font-family: 'Satisfy';
+}
+html,body{
+    height:100%;
+
+}
+.container-fluid{
+    min-height: 100%;
+}
+/* services icon color */
+
+.icon-color{
+    color:chartreuse;
+}
+.p-color{
+    color:whitesmoke;
+}
+.nav-link{
+    color: whitesmoke;
+}
+.nav-link:hover{
+    color: black;
+    background-color: rgb(60, 219, 12);
+}
+.nav-link:active{
+    color: black;
+    background-color:rgb(129, 187, 151);
+    color: black;
+    font-weight: bold;
+}
+.br{
+    color: burlywood;
+}

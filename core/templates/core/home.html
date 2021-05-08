@@ -1,0 +1,19 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+<div class="text-center">
+<img src="{% static 'core\images\brijesh.jpg' %}" alt="pic_main" class="img-thumbnail" width="250px" height="150px">
+</div>
+<div class="mt-5 text-white mx-5 text-justify">
+<h1 class="text-warning font-weight-bold font">Hello ,</h1>
+<div class="px-2 " style="line-height:2rem">
+  <p style="text-indent:100px;"><b class=" ">My name is Brijesh rajbhar and I am highly organised. I always take notes, and I use a series of tools to help myself stay on top of deadlines. I like to keep a clean workspace and create a logical filing method so I’m always able to find what I need. I find this increases efficiency and also helps the rest of the team stay on track. In my last role, I created a new attendance system that increased departmental efficiency by 15 percent.I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work.For example, I taught myself how to use aws and flutter to improve the quality of our hosting and development. </p>
+</div>
+</div>
+<div class="text-center">
+<a href="https://www.linkedin.com/in/brijeshrajbhar" class=" btn btn-outline-warning mx-3 mr-5">Hire Me</a>
+<a href="{% url 'contacts' %}" class=" btn btn-outline-info my-3 mx-5">Contact</a>
+</div>
+</div>
+{% endblock content %}
