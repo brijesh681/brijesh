@@ -51,9 +51,9 @@ psycopg2==2.8.6
 py-moneyed==0.8.0
 pyasn1==0.4.8
 pycparser==2.20
-PyJWT==1.7.1
+
 pylint==2.6.0
-pypiwin32==223
+
 pypng==0.0.20
 PyQRCode==1.2.1
 python-crontab==2.5.1
